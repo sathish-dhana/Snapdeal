@@ -7,7 +7,7 @@ We were a team of 5 from the Masai Web-15 batch who worked on cloning the www.sn
 </tr>
 <tr>
 <td>
-Snapdeal is India's leading pure-play value Ecommerce platform. Founded in 2010 by Kunal Bahl and Rohit Bansal, Snapdeal is one of the top four online lifestyle shopping destinations of India. Snapdeal brings together a wide assortment of good quality and value- priced merchandise on its platform. With majority of the value-seeking, middle-income, price-conscious buyers coming from the non-metros, Snapdeal’s logistics networks powered by third party logistics cover more than 96% of India’s pin codes enabling order deliveries to more than 2500 towns and cities and expanding. Further, Snapdeal’s continuing to build a complete ecosystem around value commerce, where Snapdeal can serve Bharat consumers wherever they are on their offline to online shopping journey.
+Snapdeal is India's leading pure-play value Ecommerce platform. Founded in 2010 by Kunal Bahl and Rohit Bansal, Snapdeal is one of the top four online lifestyle shopping destinations of India. Snapdeal’s logistics networks powered by third party logistics cover more than 96% of India’s pin codes enabling order deliveries to more than 2500 towns and cities and expanding. Further, Snapdeal’s continuing to build a complete ecosystem around value commerce, where Snapdeal can serve Bharat consumers wherever they are on their offline to online shopping journey.
   </td>
 </tr>
 </table>
