@@ -1,0 +1,131 @@
+body{
+    margin: 0px;
+}
+
+#navBar{
+    width: 100%;
+    height: 4em;
+    background-color: #F5004B;
+    display: flex;
+    position: sticky;
+    top: 0;
+    width: 100%;
+}
+#logo{
+    /* border: 1px solid black; */
+    flex: 0.7;
+}
+#logo>img{
+    width: 60%;
+    height: 3.8em;
+    margin-left: 20%;
+    margin-top: 0px;
+}
+#search{
+    /* border: 1px solid black; */
+    flex: 2;
+}
+#rightNav{
+    /* border: 1px solid black; */
+    flex: 1;
+}
+#search{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+#searchBox{
+    border: 0px;
+    width: 65%;
+    height: 2.5em;
+    background-color: #F8F8F8;
+    font-size: 14px;
+    color: gray;
+    padding-left: 5%;
+    border-radius: 2px;
+}
+#pack{
+    display: flex;
+}
+#button>div{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#button{
+    width: 11%;
+    height: 2.7em;
+    background-color: #333333;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 3%;
+    font-size: 14px;
+    color: #F7F7F7;
+    font-weight: lighter;
+    border-radius: 2px;
+}
+#button:hover{
+    cursor: pointer;
+    background-color: rgb(70, 70, 70);
+    
+}
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
+#rightNav{
+    display: flex;
+    font-family: 'Poppins', sans-serif;
+}
+#cartDiv{
+    flex: 1;
+    border-left: 1px solid #C6003D;
+    border-right: 1px solid #C6003D;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+#cartDiv>div{
+    color: white;
+    width: 50%;
+    margin: auto;
+}
+#profileDiv{
+    flex: 2;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+#profileDiv>div{
+    color: white;
+    width: 50%;
+    margin: auto;
+}
+#userIcon{
+    padding: 6px;
+    border-radius: 50%;
+    background-color: #C6003D;
+}
+#navTop{
+    width: 100%; 
+    height: 1.8em; 
+    background-color: #C6003D;
+    display: flex;
+    font-family: 'Poppins', sans-serif;
+}
+#navTop>div:nth-child(1) {
+    flex: 1;
+    font-size: 12px;
+    padding-left: 5%;
+    color: #F7F7F7;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+#navTop>div:nth-child(2) {
+    flex: 2;
+    color: #F7F7F7;
+    font-size: 12px;
+    text-align: right;
+    padding-right: 5%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}

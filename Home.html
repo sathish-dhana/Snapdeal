@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/navbar.css">
+    <link rel="stylesheet" href="styles/home.css">
+    <script src="https://kit.fontawesome.com/c31f20646c.js" crossorigin="anonymous"></script>
+    <title>Home</title>
+</head>
+<body>
+    <div id="header1">
+        <!-- place header here -->
+    </div>
+    <div id="main">
+        <div id="sideBar">
+            <div id="divide">
+                <div style="font-weight: bold; margin: 15px 0px 10px 15px; color: #333333;">TOP CATEGOTIES</div>
+                <div id="types">
+                    <img src="https://www.byrdie.com/thmb/PAXWAFtVABi9w1BQFILOGUVw2I4=/700x796/filters:no_upscale():max_bytes(150000):strip_icc()/cdn.cliqueinc.com__cache__posts__222559__beauty-tips-male-models-222559-1497191098758-image.700x0c-d6e1efd49fdd4a088e603eadceec2e08.jpg">
+                    <p>Men's Fashion</p>
+                </div>
+                <div id="types">
+                    <img src="https://i.dailymail.co.uk/i/pix/2016/02/18/22/315A166700000578-3453508-image-m-32_1455832792052.jpg">
+                    <p>Women's Fashion</p>
+                </div>
+                <div id="types">
+                    <img src="https://www.durian.in/blog/wp-content/uploads/2021/03/Check-Sofa-Dimensions-Space-Available.jpg">
+                    <p>Home & Kitchen</p>
+                </div>
+                <div id="types">
+                    <img src="https://images.squarespace-cdn.com/content/v1/57a2406c3e00be43a0605f34/1567370222121-4Z82K3LAXIU4MCVFRXWP/IMG_9568.jpg">
+                    <p>Toys &   Kid's Fashion</p>
+                </div>
+            </div>
+            <div id="divide">
+                <div style="font-weight: bold; margin: 5px 0px 10px 15px; color: #333333;">MORE CATEGOTIES</div>
+                <div id="types">
+                    <img src="https://images.carandbike.com/bike-images/medium/ktm/rc-200/ktm-rc-200.webp?v=18">
+                    <p>Automotives</p>
+                </div>
+                <div id="types">
+                    <img src="https://www.lg.com/in/images/mobile-phones/md07519000/thumbnail/LMK315IM-350-03.jpg">
+                    <p>Mobile & Accessories</p>
+                </div>
+                <div id="types">
+                    <img src="https://www.sony-asia.com/image/916e1ca5c3b64c3947acae853da7ad07?fmt=pjpeg&bgcolor=FFFFFF&bgc=FFFFFF&wid=2515&hei=1320">
+                    <p>Electronics</p>
+                </div>
+                <div id="types">
+                    <img src="https://m.media-amazon.com/images/I/61R-VccFN9L._SX425_.jpg">
+                    <p>Sports & Fitness</p>
+                </div>
+            </div>
+            <div id="divide">
+                <div style="font-weight: bold; margin: 5px 0px 10px 15px; color: #333333;">Top Search</div>
+                <div id="types">
+                    <span style="font-size: 20px;" class="fas fa-search"> </span>
+                    <p>Shirt</p>
+                </div>
+                <div id="types">
+                    <span style="font-size: 20px;" class="fas fa-search"> </span>
+                    <p>Pant</p>
+                </div>
+                <div id="types">
+                    <span style="font-size: 20px;" class="fas fa-search"> </span>
+                    <p>Chudithars</p>
+                </div>
+                <div id="types">
+                    <span style="font-size: 20px;" class="fas fa-search"> </span>
+                    <p>mobile-phones</p>
+                </div>
+            </div>
+        </div>
+        <div id="rightBar">
+            
+        </div>
+    </div>
+</body>
+</html>
+
+<script type="module">
+    import navbar from "/components/navBar.js"
+
+    let head = document.querySelector("#header1");
+    head.innerHTML = navbar();
+
+</script>
