@@ -67,6 +67,7 @@ body{
 #button:hover{
     cursor: pointer;
     background-color: rgb(70, 70, 70);
+    transition-duration: 0.5s;
     
 }
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
@@ -99,7 +100,7 @@ body{
     margin: auto;
 }
 #userIcon{
-    padding: 6px;
+    padding: 10px;
     border-radius: 50%;
     background-color: #C6003D;
 }

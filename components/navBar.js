@@ -9,7 +9,7 @@ function navbar() {
 </div>
 <div id="navBar">
     <div id="logo">
-        <img src="logo1.png">
+        <img src="photos/logo1.png">
     </div>
     <div id="search">
         <div id="pack">
