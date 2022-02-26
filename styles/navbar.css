@@ -87,17 +87,22 @@ body{
     color: white;
     width: 50%;
     margin: auto;
+    font-size: 15px;
 }
 #profileDiv{
     flex: 2;
     display: flex;
     flex-direction: column;
     justify-content: center;
+    font-size: 15px;
 }
 #profileDiv>div{
     color: white;
-    width: 50%;
-    margin: auto;
+    width: 70%;
+    height: 100%;
+    margin: left;
+    text-align: center;
+    padding-top: 5%;
 }
 #userIcon{
     padding: 10px;
@@ -129,4 +134,8 @@ body{
     display: flex;
     flex-direction: column;
     justify-content: center;
+}
+#profileDiv>div:hover{
+    cursor: pointer;
+    background-color: #333333;
 }

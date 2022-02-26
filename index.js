@@ -1,4 +1,10 @@
-var openPopupBtn = document.querySelector("#open_popup_btn")
+import signUpForm from "/components/signUp.js";
+
+var openPopupBtn = document.querySelector("#drop1")
+openPopupBtn.innerHTML = signUpForm();
+
+console.log("icame")
+
 var closePopupBtn = document.querySelector(".popup_close_btn")
 
 
@@ -7,28 +13,11 @@ openPopupBtn.addEventListener("click" , function(){
     document.body.classList.add("popup-active")
 });
 closePopupBtn.addEventListener("click" , function(){
-
     document.body.classList.remove("popup-active")
 })
-var Regsitor = document.getElementById("continue").addEventListener("click",function(){
-    Register
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    ()
-  })
+var Regsitor = document.getElementById("drop1").addEventListener("click",function(){
+    Register();
+  });
 
 
 let Register = async() =>{

@@ -26,14 +26,15 @@ function navbar() {
         <div id="cartDiv">
             <div>
                 Cart
-                <span style="font-size: 20px;" class="fas fa-cart-plus"> </span>
+                <span style="font-size: 18px;" class="fas fa-cart-plus"> </span>
             </div>
         </div>
         <div id="profileDiv">
-            <div>
+            <div id="hovDiv">
                 <span id="user">Profile&nbsp;</span>
                 <span id="userIcon" style="font-size: 18px;" class="fa-solid fa-user"> </span>
             </div>
+            
         </div>
     </div>
 </div>`;

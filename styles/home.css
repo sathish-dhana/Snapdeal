@@ -8,11 +8,12 @@ body{
     background-color: #F7F7F7;
     height: 67.5em;
     margin: auto;
-    margin-top: 20px;
+    /* padding-top: 20px; */
     display: flex;
     font-family: 'Poppins', sans-serif;
     font-size: 12px;
     border-radius: 3px;
+    /* position: relative; */
 }
 #sideBar{
     width: 19%;
@@ -22,12 +23,14 @@ body{
     margin-right: 20px;
     border-radius: 3px;
     background-color: #FFFFFF;
+    margin-top: 20px;
 }
 #rightBar{
     width: 100%;
     height: 33em;
     /* border: 1px solid black; */
     display: flex;
+    margin-top: 20px;
 }
 #fullBar{
     width: 100%;
@@ -279,7 +282,9 @@ a, a:hover{
 }
 #proimg>img{
     max-height: 100%;
-    max-width: 100%;
+    max-width: 95%;
+    /* border: 1px solid black; */
+    margin-left: 2%;
 }
 #tex>p{
     margin: 0px 0px 5px 10px;
@@ -299,4 +304,67 @@ a, a:hover{
 #innerpro:hover{
     cursor: pointer;
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+#dropdown{
+    position: fixed;
+    margin-left: 76%;
+    padding-top: 0px;
+    width: 200px;
+    height: 200px;
+    border-bottom-left-radius: 3px;
+    border-bottom-right-radius: 3px;
+    background-color: #333333;  
+    /* display: none; */
+}
+#dropdown{
+    display: none;
+}
+
+#drop1{
+    color: white;
+    font-size: 15px;
+    padding-left: 20px;
+    padding-top: 15px;
+    width: 89%;
+    height: 2em;
+    /* border: 1px solid black; */
+}
+#drop12{
+    color: white;
+    font-size: 15px;
+    padding-left: 20px;
+    padding-top: 15px;
+    width: 89%;
+    height: 2em;
+    /* border: 1px solid black; */
+}
+#drop12:hover{
+    background-color: #161616;
+    cursor: pointer;
+}
+#drop2{
+    color: #d3d3d3;
+    text-align: center;
+    justify-content: center;
+    font-size: 12px;
+    padding: 10px 20px 10px 20px;
+}
+#drop1:hover{
+    background-color: #161616;
+    cursor: pointer;
+}
+#drop3{
+    color: white;
+    font-size: 15px;
+    padding-top: 15px;
+    height: 2em;
+    background-color: #C6003D;
+    width: 90%;
+    margin: auto;
+    border-radius: 3px;
+    text-align: center;
+}
+#drop3:hover{
+    background-color: #F5004B;
+    cursor: pointer;
 }
