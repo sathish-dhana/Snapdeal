@@ -1,0 +1,392 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <title>Document</title>
+    <style>
+        .shopingcart1{
+            position: fixed;
+            width: 85%;
+            margin-left: 7.5%;
+            height:250px;
+            box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+            margin-top: 6%;
+        }
+        .bottompay{
+            width:100%;
+            background-color: rgb(3, 3, 3);
+            height:100px;
+            position: fixed;
+            margin-top: 35%;
+            margin-left: -0.5em;
+        }
+        .shopingcart2{
+            display: flex;
+            color:rgb(77, 72, 72);
+            font-family: sans-serif;
+            font-size: 11px;
+            margin-left: 3%;
+           margin-top: 1%;
+        }
+        .shopingcart3{
+            font-size: 8px;
+            margin-top: 0.3%;
+            margin-left: 1%;
+            font-family: sans-serif;
+            font-stretch: semi-expanded;
+            color: rgb(158, 153, 153);
+        }
+        .shopingcart4{
+            margin-left: 80%;
+            margin-top: 1%;
+            cursor: pointer;
+        }
+        .shopingcart5{
+            display: flex;
+            font-size: 8px;
+            font-family: sans-serif;
+            font-stretch:wider;
+            color: rgb(167, 162, 162);
+            width:100%;
+            background-color: rgb(248, 245, 245);
+            height:25px;
+        }
+        .shopingcart6{
+            margin-left:4%;
+            margin-top: 1%;
+            width:30.5%;
+            
+        }
+        .shopingcart7{
+            margin-top: 1%;
+            margin-left: 1%;
+        }
+        .shopingcart8{
+            margin-top: 1%;
+            margin-left: 6%;
+        }
+        .shopingcart9{
+            margin-top: 1%;
+            margin-left: 6%;
+        }
+        .shopingcart10{
+            margin-top: 1%;
+            margin-left: 0.5%;
+            color:rgb(204, 68, 109);
+        }
+        .glyphicon{
+            color: black;
+            cursor: pointer;
+        }
+        .shopingcart11{
+            margin-left: 20%;
+            margin-top: 1%;
+        }
+        .shopingcart12{
+            width:100%;
+            overflow: auto;
+            height: 168px;
+            
+
+        }
+        .shopingcart14{
+            display: flex;
+           height:90px;
+           /* border: 1px solid red; */
+        }
+        .shopingcart14>img{
+            width:7%;
+            margin-top: 2%;
+            margin-left: 3%;
+            height:50px
+        }
+        .shopingcart15{
+            font-size: 8px;
+            color:rgb(134, 131, 131);
+            width:20%;
+            margin-left: 3%;
+            margin-top: 2.2%;
+        }
+        .shopingcart17{
+          
+            /* position: fixed; */
+            font-size: 8px;
+            margin-top: 1%;
+            cursor: pointer;
+            margin-top: 9%;
+            margin-left: -85%;
+        }
+        .shopingcart18{
+            font-size: 8px;
+            margin-left: 2%;
+            margin-top: 2.5%;
+            color: rgb(177, 167, 167);
+        }
+        .shopingcart19{
+            margin-left: 5.3%;
+            margin-top: 2%;
+        }
+        #shopingcart20{
+            font-size: 8px;
+            margin-left: 15%;
+           
+        }
+        .shopingcart20{
+            font-size: 7px;
+            height:10px;
+            overflow: hidden;
+            width: 20%;
+            margin-top: 3%;
+            margin-left: 6%;
+            color: rgb(128, 120, 120);
+        }
+        .shopingcart21{
+            color:green;
+            font-size: 7px;
+            margin-top: 3%;
+            margin-left: -1%;
+        }
+        .shopingcart22{
+            font-size: 8.5px;
+            margin-left: 17%;
+            margin-top: 4%;
+        }
+        .bottompay{
+            color:white;
+
+        }
+       
+        .bottompay1{
+            font-size:7px;
+            margin-left: 9%;
+            margin-top: 2%;
+        }
+        .bottompay2{
+           color: rgb(170, 166, 166);
+        }
+        .bottompay3>img{
+            width: 9px;
+          
+        }
+        .bottompay3{
+            color: rgb(185, 174, 174);
+        }
+        .bottom4{
+            width:200px;
+            font-size: 8px;
+            color: rgb(185, 174, 174);
+            margin-left: 10%;
+            margin-top: 3%;
+        }
+        .bottompay{
+            display: flex;
+        }
+        .bottom5{
+            font-size: 8px;
+            color: white;
+            margin-top: 3%;
+            margin-left: -13%;
+        }
+        .bottom6{
+            display: flex;
+        }
+        .bottom8{
+            color: green;
+        }
+        .bottom9{
+            height: 25px;
+            font-size: 10px;
+            color: white;
+            background-color: rgb(228, 0, 70);
+            border: none;
+            border-radius: 3px;
+            margin-left: 10%;
+            margin-top: 3%;
+        }
+    </style>
+</head>
+<body>
+    <div class="shopingcart1">
+
+        <div class="shopingcart2">
+            <p>Shopping Cart</p>
+            <p class="shopingcart3">(1 Item)</p>
+            <div class="shopingcart4">&#10006</div>
+        </div>
+
+        <div class="shopingcart5">
+            <div class="shopingcart6">Item Details</div>
+            <div class="shopingcart7">Price</div>
+            <div class="shopingcart8">Quantity</div>
+            <div class="shopingcart9">Showing Availability at</div>
+            <div class="shopingcart10">521180    <span class="glyphicon glyphicon-edit"></span></div>
+            <div class="shopingcart11">Subtotal</div>
+        </div>
+
+
+        <div class="shopingcart12">
+
+            <!-- <div class="shopingcart14">
+
+                <img src="https://n3.sdlcdn.com/imgs/j/m/u/130x152/Saleh-Silicone-Shower-Bath-Belt-SDL405036270-1-0c211.jpg" alt="">
+                <div class="shopingcart15">
+                    <p class="shopingcart16">Saleh Silicone Shower Bath Belt Back Scrubber Brush Body Scrub Foam 140 g</p>
+                  
+                </div>
+                <div class="shopingcart18">Rs.159</div>
+                <div class="shopingcart19">
+                  <select name="" id="shopingcart20">
+                      <option value="1">1</option>
+                      <option value="2">2</option>
+                      <option value="3">3</option>
+                      <option value="4">4</option>
+                      <option value="5">5</option>
+                      <option value="6">6</option>
+                      <option value="7">7</option>
+                      <option value="8">8</option>
+                      <option value="9">9</option>
+                      <option value="10">10</option>
+                  </select>
+                </div>
+                <div class="shopingcart20">
+                    Standard Delivery By Fri Mar 04 2022 12:10:26 GMT+0530 (India Standard Time)
+                </div>
+                <p class="shopingcart21">Free</p>
+                <p class="shopingcart22">Rs.318</p>
+                <p class="shopingcart17">&#10006 Remove</p>
+            </div> -->
+
+           
+
+        </div>
+    </div>
+
+    <div class="bottompay">
+        <div class="bottompay1">
+            <p class="bottompay2">Delevery and payment options can be selected later</p>
+            <div class="bottompay3">
+               
+
+               <p>&#160 Safe and Secure Payments  &#160</p> 
+               
+                &#160 100% Payment Protection, Easy Returns Policy  
+            </div>
+        </div>
+        <div class="bottom4">
+           <p>Sub Total:</p>
+           <p>Delivery Charges:</p>
+        </div>
+        <div class="bottom5">
+            <div class="bottom6">
+                <p>Rs.</p>
+                <p class="bottom7"></p>
+            </div>
+            <p class="bottom8">Free</p>
+        </div>
+        <button class="bottom9">PROCEED TO PAY Rs. <span class="bottom10"></span></button>
+    </div>
+</body>
+</html>
+<script>
+
+// var shopingcart14=document.createElement("div");
+// shopingcart14.setAttribute("class","shopingcart14");
+
+var m=JSON.parse(localStorage.getItem("items"));
+var count=0;
+var move=0;
+ m.forEach(function(ele){
+
+
+    
+    var shopingcart14=document.createElement("div");
+    shopingcart14.setAttribute("class","shopingcart14");
+    console.log(ele)
+    var image=document.createElement("img");
+    image.src=ele.image;
+    
+
+    let shopingcart15=document.createElement("div");
+    shopingcart15.setAttribute("class","shopingcart15");
+
+    var shopingcart16=document.createElement("p");
+    shopingcart16.setAttribute("class","shopingcart16");
+    shopingcart16.textContent=ele.name;
+    
+    var shopingcart17=document.createElement("p");
+    shopingcart17.setAttribute("class","shopingcart17")
+    shopingcart17.innerHTML="&#10006 Remove";
+    shopingcart17.addEventListener("click",main)
+       
+    shopingcart15.append(shopingcart16)
+
+    var shopingcart18=document.createElement("div");
+    shopingcart18.setAttribute("class","shopingcart18");
+    shopingcart18.innerHTML=`Rs.${ele.price}`
+
+
+    var shopingcart19=document.createElement("div");
+    shopingcart19.setAttribute("class","shopingcart19");
+
+    var shopingcart20=document.createElement("select");
+    shopingcart20.setAttribute("id","shopingcart20");
+
+    for(var j=1;j<=10;j++){
+        var option=document.createElement("option");
+        option.value=j;
+        option.innerHTML=j;
+        shopingcart20.append(option)
+    }
+    shopingcart19.append(shopingcart20);
+    
+    
+   
+
+    let nextWeek = new Date()
+    nextWeek.setDate(nextWeek.getDate() + 7)
+    console.log(nextWeek)
+    var shopingcart201=document.createElement("div");
+    shopingcart201.setAttribute("class","shopingcart20");
+    shopingcart201.innerHTML=`Standard Delivery By ${nextWeek} `
+
+    let shopingcart21=document.createElement("p");
+    shopingcart21.setAttribute("class","shopingcart21");
+    shopingcart21.innerHTML=" Free"
+
+    var shopingcart22=document.createElement("p");
+    shopingcart22.setAttribute("class","shopingcart22");
+    shopingcart22.innerHTML=`Rs. ${ele.price}`
+    count=count+ele.price
+    var price=ele.price;
+    shopingcart20.addEventListener("change",function(){
+        
+        shopingcart22.innerHTML=`Rs. ${shopingcart20.value*price}`
+        move=move+(shopingcart20.value*price);
+      console.log(move);
+      count=count+ele.price*shopingcart20.value
+      document.querySelector(".bottom7").innerHTML=count;
+      document.querySelector(".bottom10").innerHTML=count;
+      localStorage.setItem("totalprice",JSON.stringify(count))
+    })
+    document.querySelector(".bottom7").innerHTML=count;
+    document.querySelector(".bottom10").innerHTML=count;
+    localStorage.setItem("totalprice",JSON.stringify(count))
+   
+   
+    
+
+    shopingcart14.append(image,shopingcart15,shopingcart18,shopingcart19,shopingcart201,shopingcart21,shopingcart22,shopingcart17);
+
+    document.querySelector(".shopingcart12").append(shopingcart14);
+    function main(){
+       event.target.parentNode.remove();
+       alert(`${ele.name} is removed from the cart`)
+    }
+    
+})
+
+console.log(count)
+</script>

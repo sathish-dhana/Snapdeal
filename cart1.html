@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .cart1{
+            width:80%;
+            margin-left:10%;
+            /* border:1px solid black; */
+           
+        }
+        .empty{
+            text-align: center;
+            font-family: sans-serif;
+            font-size: 11px;
+            color: rgb(110, 109, 109);
+            margin-top: 3%;
+        }
+        .brows{
+            font-size: 9px;
+            color: rgb(110, 109, 109);
+            font-family: sans-serif;
+            word-spacing:-2px;
+            text-align: center;
+            margin-top: 4.5%;
+          
+        }
+        .hr{
+            border-top: 1px solid rgb(255, 255, 255);
+            height: 0.1px;
+        }
+        .catog{
+            width:100%;
+           display: grid;
+           grid-template-columns: repeat(4,1fr);
+           color:rgb(165, 164, 164); 
+           font-family: sans-serif;
+           font-size: 8px;
+        }
+        .catog>div>p{
+            margin-top: 8%;
+            cursor: pointer;
+        }
+        .catog>div{
+            margin-left: 8%;
+        }
+        button{
+            text-align: center;
+            background-color: #DE0B43;
+            width:27%;
+            height: 27px;
+            font-weight:bold;
+            font-size: 11px;
+            color: white;
+            border: none;
+            border-radius: 3px;
+            margin-left: 38%;
+            margin-top:2%;
+        }
+        .ptm{
+            display: flex;
+           margin-left: 27%;
+           margin-top: 3%;
+           color: rgb(201, 197, 197);
+           font-weight: small;
+           font-size: 7.5px;
+           font-family: sans-serif;
+
+        }
+        .ptm>img{
+            width:1.5%;
+        }
+    </style>
+</head>
+<body>
+    <div class="cart1">
+        <div class="empty">Shoping cart is empty!</div>
+        <div class="brows">BROWSE CATEGORIES</div>
+        <hr class="hr">
+        <div class="catog">
+            <div>
+                <p>- Appliances</p>
+                <p>- Cameras & Accessories</p>
+                <p>- Gaming</p>
+                <p>- Men's Clothing</p>
+                <p>-Tablets & Accessories</p>
+            </div>
+            <div>
+                <p>- Baby & Kids</p>
+                <p>- Daily Needs</p>
+                <p>- Jewellery</p>
+                <p>-  Mobile Accessories</p>
+                <p>- TV, Audio & Video</p>
+            </div>
+            <div>
+                <p>- Beauty & Personal Care</p>
+                <p>-  Furnishing</p>
+                <p>- Kitchenware</p>
+                <p>- Mobile Phones</p>
+                <p>- Women's Ethnic Wear</p>
+            </div>
+            <div>
+                <p>-  Books</p>
+                <p>-   Furniture</p>
+                <p>-  Laptops & Computers</p>
+                <p>-  Nutrition & Suppliments</p>
+                <p>- Women's Western Wear</p>
+            </div>
+        </div>
+        <button class="gotothis">START SHOPPING NOW</button>
+        <div class="ptm">
+            <img src="https://cdn-icons-png.flaticon.com/128/508/508281.png" alt="safepayment">
+
+                &#160 Safe and Secure Payments  &#160
+                <img src="https://cdn-icons.flaticon.com/png/128/3760/premium/3760135.png?token=exp=1645631404~hmac=80205eb93d734f480cfa8bdc4d769ea3" alt=""> 
+                &#160 100% Payment Protection, Easy Returns Policy  
+        </div>
+    </div>
+</body>
+</html>
