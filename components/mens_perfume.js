@@ -286,17 +286,3 @@ document.getElementById("div_product").addEventListener("click",function(){
   localStorage.setItem("Bagitems",JSON.stringify(deodrant));
   window.location.href='cart.html'
 });
-
-
-
-let name = document.getElementById("search_category").value;
-
-let timer;
-function debounce(func,delay){
-if(timer){
-  clearTimeout(timer);
-}
-timer = setTimeout(function(){
-func();
-},delay);
-}

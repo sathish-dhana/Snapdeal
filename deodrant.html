@@ -219,7 +219,7 @@
     <h4>Women's Frangrance (10000+Items)</h4>
     <p style="margin-top: -4%;margin-left: 36%;">|</p>
     <form id="search for category" style="margin-top: -5.5%;margin-left: 27%;">
-        <input id="search_category" type="text" placeholder="Search with Category" style="background: transparent ;border: none;border-bottom: 1px solid rgb(85, 84, 84);margin-left: 15%;margin-top: 2.5%;" oninput="debounce(main,1000)">
+        <input id="search_category" type="text" placeholder="Search with Category" style="background: transparent ;border: none;border-bottom: 1px solid rgb(85, 84, 84);margin-left: 15%;margin-top: 2.5%;" oninput="debounce(main,2000)">
 
     </form>
     <form id="sort_form" style="margin-left: 75%;margin-top: 0%;">
@@ -263,6 +263,11 @@ import footerFin from "/components/footerNav.js";
 
 let foot = document.querySelector("#expftr");
     foot.innerHTML = footerFin();
+
+    let cart = document.querySelector("#cartDiv");
+    cart.addEventListener("click", () => {
+        window.location.href = "cart2.html";
+    });
 
 </script>
 

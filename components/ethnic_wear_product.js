@@ -315,10 +315,7 @@ return b.discount - a.discount;
   }
 
 
-
-
-
   document.getElementById("div_product").addEventListener("click",function(){
     localStorage.setItem("Bagitems",JSON.stringify(ethnic))
-    window.location.href='cart.html'
+    window.location.href= 'cart2.html'
   });

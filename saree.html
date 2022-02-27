@@ -262,6 +262,11 @@ import footerFin from "/components/footerNav.js";
 let foot = document.querySelector("#expftr");
     foot.innerHTML = footerFin();
 
+    let cart = document.querySelector("#cartDiv");
+    cart.addEventListener("click", () => {
+        window.location.href = "cart2.html";
+    });
+
 </script>
 
 
