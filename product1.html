@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Document</title>
+    <style>
+        .container{
+            width:92%;
+            margin-left: 4%;
+          
+
+        }
+        .head{
+            font-size: 8px;
+            color: rgb(141, 135, 135);
+        }
+        .main{
+            box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+            display: flex;
+            margin-top: 3%;
+        }
+        .main1{
+            margin-left: 5%;
+            width:100px;
+            height:120px;
+        }
+        .hr{
+            height:0.3px;
+            width:90px;
+            transform: rotate(90deg);
+            background-color: rgb(240, 236, 236);
+            margin-top: 9%;
+            margin-left: -2%;
+        }
+        .main2{
+            font-size: 11px;
+            font-family: sans-serif;
+            width:50%;
+            margin-left: -2%;
+            margin-top: 1.5%;
+            color:rgb(134, 130, 130);
+        }
+        .main3{
+            display: flex;
+            margin-top: 6%;
+            margin-left: -50%;
+        }
+        .checked{
+            color: orange;
+        }
+        .fa{
+            font-size:6px;
+        }
+        .main4{
+            display: flex;
+            margin-top: 4.9%;
+            font-size: 7px;
+            width:50%;
+            font-family: sans-serif;
+            margin-left: 2%;
+        }
+        .main5{
+            font-size: 7px;
+            color: rgb(155, 148, 148);
+        }
+        .main6{
+            font-size: 7px;
+            margin-left: 2%;
+            color: rgb(74, 134, 247);
+        }
+        .main7{
+            width:9px;
+            height: 0.3px;
+            background-color: rgb(223, 217, 217);
+            transform: rotate(90deg);
+            margin-top: 3%;
+        }
+        .main8{
+            color: rgb(74, 134, 247);;
+        }
+        .main9{
+            width:9px;
+            height: 0.3px;
+            background-color: rgb(223, 217, 217);
+            transform: rotate(90deg);
+            margin-top: 3%;
+        }
+        .main10{
+            color: rgb(74, 134, 247);
+        }
+        .main11{
+            width:9px;
+            height: 0.3px;
+            background-color: rgb(223, 217, 217);
+            transform: rotate(90deg);
+            margin-top: 3%;
+        }
+        .main12{
+            color: rgb(74, 134, 247);
+           
+        }
+        .main13{
+            font-size: 7px;
+            font-family: sans-serif;
+           color:rgb(158, 151, 151);
+           margin-top: 9%;
+           margin-left: -49%;
+        }
+        .main14{
+            text-decoration: line-through;
+        }
+        .hr1{
+            width:50%;
+            height: 0.2px;
+            background-color: rgb(219, 213, 213);
+          transform: rotate(180deg);
+          margin-top: 8%;
+          margin-left: -56%;
+        }
+        .main15{
+            display: flex;
+            font-size: 11px;
+            font-family: sans-serif;
+            margin-top: 9%;
+            margin-left: -15%;
+            color: red;
+        }
+        .main17{
+            margin-left: 15%;
+            color: rgb(177, 170, 170);
+            border: 1px solid rgb(204, 194, 194);
+            height:8px;    
+            font-size: 7px;
+            margin-top: 18%;
+        }
+        .main18{
+            font-size: 6px;
+            font-family: sans-serif;
+            margin-top: 13%;
+            margin-left: -10%;
+            color:rgb(204, 199, 199);
+        }
+        .main19{
+            width:20%;
+            height:30px;
+            color: white;
+            background-color: black;
+            border: none;
+            border-radius: 3px;
+            margin-top: 18%;
+            margin-left: -20.5%;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+    <div class="head"></div>
+    <div class="main">
+        <img src="" alt="" class="main1">
+        <div class="hr"></div>
+        <div class="main2">
+          
+        </div>
+        <div class="main3">
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star"></span>
+            
+        </div>
+        <div class="main4">
+            <p class="main5">(4.0)</p>
+            <p class="main6">12279 Rating</p>
+            <div class="main7"></div>
+            <p class="main8">276 Reviews</p>
+            <div class="main9"></div>
+            <p class="main10">40 Selfies</p>
+            <div class="main11"></div>
+            <p class="main12">Have a questions?</p>
+        </div>
+        <div class="hr1"></div>
+        <div class="main13">MRP <span class="main14"> RS.498</span> (Inclusive of all taxes)</div>
+        <div class="main15">
+            <p class="main16"></p>
+            <p class="main17">71%OFF</p>
+        </div>
+        <div class="main18">Price as per the notification issued by the Government</div>
+        <button class="main19">Add To Cart</button>
+    </div>
+    </div>
+</body>
+</html>
+<script>
+    var item= JSON.parse(localStorage.getItem("items")) ||[]
+    var m=JSON.parse(localStorage.getItem("oneitem"));
+   document.querySelector(".head").innerHTML=m.name;
+   document.querySelector(".main1").src=m.image;
+   document.querySelector(".main2").innerHTML=m.name;
+   document.querySelector(".main14").innerHTML=`Rs.${Math.floor((m.price*100)/29)}`
+   document.querySelector(".main16").innerHTML=`Rs.${m.price}`
+   document.querySelector(".main19").addEventListener("click",function(event){
+       event.preventDefault();
+        item.push(m)
+        localStorage.setItem("items",JSON.stringify(item));
+       window.location.href="cart2.html"
+   })
+</script>

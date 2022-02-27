@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width= , initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <title>Document</title>
+    <style>
+        .showname{
+            width:95%;
+            margin-left: 2.5%;
+            height:35px;
+            background-color: #19bc9c;
+            display: flex;
+        }
+        .righttic{
+            color: green;
+            margin-left: 3px;
+            position: relative;top:-0.1em;
+        }
+        .round{
+            width:20px;
+            height:20px;
+            border-radius: 50%;
+            background-color: white;
+           position: relative;top:0.5em;left:0.5em;
+        }
+        .nn{
+            font-family: sans-serif;
+            font-size: 11px;
+            margin-left: 2%;
+            margin-top: 1.5%;
+            color: white;
+            font-weight: lighter;
+        }
+       .cancel{
+           color: white;
+           margin-left: 29%;
+           margin-top:0.8%;
+           cursor: pointer;
+       }
+       .here_p{
+           width:95%;
+           margin-left: 2.5%;
+           display: flex;
+           height: 120px;
+           box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+       }
+       .here_p>img{
+           width:45px;
+           height:50px;
+           margin-left: 3.5%;
+           margin-top:3.2%;
+       }
+       .nrsp{
+           font-size: 7.5px;
+           font-family: sans-serif;
+           width:28%;
+           margin-top: 2.2%;
+           margin-left: 2.5%;
+       }
+       .nrsp_1{
+           color:rgb(167, 160, 160);
+       }
+       .nrsp_2{
+           color: rgb(119, 115, 115);
+       }
+      .hr{
+          width:50px;
+          height:0.1px;
+          background-color: rgb(230, 220, 220);
+         transform:rotate(90deg);
+         margin-top:6.5%;
+         margin-left: -3%;
+      }
+      .myorder{
+       font-size:7.3px;
+       font-family: sans-serif;
+       width:17%;
+       margin-left: -1%;
+       margin-top:2.9%;
+      }
+      .myorder1{
+          color: rgb(158, 151, 151);
+          display: flex;
+      }
+      .myorder2{
+          border: 1px solid rgb(44, 192, 44);
+        
+          width:4em;
+          border-radius: 5px;
+          text-align: center;
+          margin-left: 0.3em;
+          font-size: 7px;
+          color: rgb(44, 192, 44);
+      }
+      .myorder3{
+          font-size: 12px;
+          margin-top: 0.2em;
+          color:rgb(168, 161, 161);
+          font-weight: normal;
+      }
+      .myorder4{
+          color: rgb(126, 115, 115);
+      }
+      .myorder5{
+          color: rgb(179, 170, 170);
+      }
+      .ptoc{
+          height:27px;
+          font-size: 8px;
+          background-color: #e40046;
+          border: none;
+          color:white;
+          border-radius: 1.5px;
+          margin-top: 4%;
+          margin-left: 2%;
+          width: 18%;
+          cursor: pointer;
+      }
+      .ptoc1{
+        height:27px;
+          font-size: 8px;
+          background-color: BLACK;
+          border: none;
+          color:white;
+          border-radius: 1.5px;
+          margin-top: 4%;
+          margin-left: 0.5%;
+          width: 10%;
+          cursor: pointer;
+      }
+    </style>
+</head>
+<body>
+    <div class="showname">
+     <div class="round"><span class="righttic">  &#x2714</span></div> 
+     <div class="nn"></div>
+    <span class="cancel">&#10006</span>
+    </div>
+    <div class="here_p">
+        <img src="" alt="" class="here_img">
+        <div class="nrsp">
+            <p class="nrsp_1">Saleh Silicone Shower Bath Belt Back Scrubber Brush Body Scrub Foam 140 g</p>
+            <p class="nrsp_2">Rs. 159</p>
+
+        </div>
+        <div class="hr"></div>
+        <div class="myorder">
+            <div class="myorder1">Your Order <div class="myorder2">1 item</div></div>
+            <p class="myorder3">You Pay: <span class="myorder4">Rs.159</span></p>
+            <p class="myorder5">(Including delivery and other charges. View Cart for details)</p>
+        </div>
+        <button class="ptoc">PROCEED TO CHECKOUT</button>
+        <button class="ptoc1" onclick="viewoncart()">VIEW ON CART</button>
+    </div>
+</body>
+</html>
+<script>
+
+var oneitem=JSON.parse(localStorage.getItem("oneitem"));
+
+document.querySelector(".here_img").src=oneitem.image; 
+
+document.querySelector(".nn").innerHTML=oneitem.name+`${" added to cart"}`;
+document.querySelector(".nrsp_1").innerHTML=oneitem.name;   
+
+document.querySelector(".nrsp_2").innerHTML=`${"Rs. "}`+oneitem.price;
+
+
+document.querySelector(".myorder4").innerHTML=`${"Rs. "}`+oneitem.price;
+function viewoncart(){
+    window.location.href="cart3.html"
+}
+
+</script>
