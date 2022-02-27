@@ -1,7 +1,6 @@
 body{
     background-color: #F7F7F7;
 }
-
 #main{
     width: 88%;
     /* border: 1px solid black; */
@@ -205,6 +204,7 @@ body{
     background-color: #FFFFFF;
     display: flex;
 }
+
 #footer2>div{
     flex: 1;
     /* border: 1px solid black; */
@@ -368,3 +368,12 @@ a, a:hover{
     background-color: #F5004B;
     cursor: pointer;
 }
+
+#strike{
+    text-decoration: line-through;
+    color: #dfdfdf;
+}
+#rupees{
+    color: black;
+}
+

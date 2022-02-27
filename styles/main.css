@@ -7,6 +7,7 @@
     background: rgb(34, 30, 30,0.5);
     display: none;
 }
+/* popup_close_btn */
 .popup{
     position: fixed;
     top: -100%;
@@ -115,6 +116,126 @@ body.popup-active .popup-overlay{
     margin-left: -20px;
     
 }
+
+
+
+ 
+
+
+.popup-overlay2{
+    position: fixed ;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+    background: rgb(34, 30, 30,0.5);
+    display: none;
+}
+.popup1{
+    position: fixed;
+    top: -100%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 300px;
+    background: white;
+    font-family: "Raleway";
+    padding: 30px;
+    border-radius: 8px;
+}
+.popup1 .popup_close_btn1{
+    position: absolute;
+    top: -5px;
+    right: 5px;
+    font-size: 35px;
+    padding: 5px;
+    color:rgb(214, 209, 209);
+    font-weight: 400;
+}
+body.popup-active2 .popup1{
+    top: 50%;
+}
+body.popup-active2 .popup-overlay2{
+     display:block ;
+}
+#name1{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    color: #333333;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+#p1{
+    font-size: 11px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    color: #adabab;
+}
+.input1{
+    padding: 10px;
+    width: 90%;
+     margin-top: 5px;
+    margin-bottom: 5px; 
+}
+#continue1{
+    font-weight: bold;
+    font-size: 15px;
+    background-color: #e40046;
+    border: 0px;
+    border-radius: 3px;
+    width: 98%;
+    padding: 11px;
+    color: wheat;
+    margin-bottom: 5px;
+}
+#div1{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 25px;
+}
+
+#facebook1{
+    border-radius: 2px;
+    background-color: #4267b2;
+    width: 40%;
+    padding: 10px;
+    border: 0px;
+}
+#fafa1{
+    color: white;
+    width: 30px;
+    margin-left: -30px;
+    
+}
+#afacebook1{
+    color: white;
+    font-size: 10px;
+    margin-left: 10px;
+    margin-right: -15px;
+}
+#agoogle1{
+    color: #333333;
+    font-size: 10px;
+    margin-left: 20px;
+    margin-right: -15px;
+   
+}
+#google1{
+    border-radius: 2px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    background-color: white;
+    width: 40%;
+    padding: 10px;
+    border: 0px;
+
+}
+#fafa2{
+    border-radius: 1px;
+    background-color: #333333;
+    color: rgb(243, 242, 236) ;
+    width: 15px;
+    margin-left: -20px;
+    
+}  
 
 
 
