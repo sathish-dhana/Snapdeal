@@ -15,6 +15,11 @@ import {signUpForm, login1} from "/components/signUp.js"
     let loginda = document.querySelector("#drop3");
     loginda.innerHTML = login1();
 
+    let cart = document.querySelector("#cartDiv");
+    cart.addEventListener("click", () => {
+        window.location.href = "cart1.html";
+    });
+
     let arr = ["https://i.pinimg.com/originals/61/47/12/614712f5f6f0ea8e80c77e9ed9bc2359.jpg", "https://www.incimages.com/uploaded_files/image/1920x1080/getty_159281926_117506.jpg", "https://i.ytimg.com/vi/mkqeUk6ylkc/maxresdefault.jpg", "https://www.adgully.com/img/800/202104/snapdeal-campaign-2.jpeg", "https://dog55574plkkx.cloudfront.net/images/snapdeal-offers-today.jpg", "https://img4.goodfon.com/wallpaper/nbig/9/20/model-girl-blonde-long-hair-straight-hair-hair-in-the-wind-1.jpg"]
     let i = 0;
     changeimage();

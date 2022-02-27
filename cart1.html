@@ -4,18 +4,25 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/navbar.css">
+    <link rel="stylesheet" href="styles/home.css">
+    <script src="https://kit.fontawesome.com/c31f20646c.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="styles/main.css">
+    <link rel="icon" href="https://2.bp.blogspot.com/-Wg8FSK_ntCw/WIC35p13I4I/AAAAAAAAYkE/NigX0ARP108IvSehpOXk-ghVqCsKGVMnACLcB/s1600/snapdeal.jpg" type="image/icon type" style="border-radius: 30%;">
     <title>Document</title>
     <style>
         .cart1{
             width:80%;
             margin-left:10%;
+            font-size: 15px;
             /* border:1px solid black; */
            
         }
         .empty{
             text-align: center;
             font-family: sans-serif;
-            font-size: 11px;
+            font-size: 18px;
             color: rgb(110, 109, 109);
             margin-top: 3%;
         }
@@ -26,7 +33,7 @@
             word-spacing:-2px;
             text-align: center;
             margin-top: 4.5%;
-          
+            font-size: 17px;
         }
         .hr{
             border-top: 1px solid rgb(255, 255, 255);
@@ -38,7 +45,6 @@
            grid-template-columns: repeat(4,1fr);
            color:rgb(165, 164, 164); 
            font-family: sans-serif;
-           font-size: 8px;
         }
         .catog>div>p{
             margin-top: 8%;
@@ -46,6 +52,7 @@
         }
         .catog>div{
             margin-left: 8%;
+            font-size: 16px;
         }
         button{
             text-align: center;
@@ -53,7 +60,6 @@
             width:27%;
             height: 27px;
             font-weight:bold;
-            font-size: 11px;
             color: white;
             border: none;
             border-radius: 3px;
@@ -66,7 +72,6 @@
            margin-top: 3%;
            color: rgb(201, 197, 197);
            font-weight: small;
-           font-size: 7.5px;
            font-family: sans-serif;
 
         }
@@ -76,6 +81,9 @@
     </style>
 </head>
 <body>
+    <div id="header1">
+        <!-- place header here -->
+    </div>
     <div class="cart1">
         <div class="empty">Shoping cart is empty!</div>
         <div class="brows">BROWSE CATEGORIES</div>
@@ -119,5 +127,20 @@
                 &#160 100% Payment Protection, Easy Returns Policy  
         </div>
     </div>
+    <div id="expftr">
+    </div>
 </body>
 </html>
+<script type="module">
+
+    import navbar from "/components/navBar.js"
+    
+    let head = document.querySelector("#header1");
+    head.innerHTML = navbar();
+    
+    import footerFin from "/components/footerNav.js";
+    
+    let foot = document.querySelector("#expftr");
+        foot.innerHTML = footerFin();
+    
+    </script>

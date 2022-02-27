@@ -5,14 +5,21 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width= , initial-scale=1.0">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="styles/navbar.css">
+    <link rel="stylesheet" href="styles/home.css">
+    <script src="https://kit.fontawesome.com/c31f20646c.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="styles/main.css">
+    <link rel="icon" href="https://2.bp.blogspot.com/-Wg8FSK_ntCw/WIC35p13I4I/AAAAAAAAYkE/NigX0ARP108IvSehpOXk-ghVqCsKGVMnACLcB/s1600/snapdeal.jpg" type="image/icon type" style="border-radius: 30%;">
     <title>Document</title>
     <style>
         .showname{
-            width:95%;
-            margin-left: 2.5%;
+            width:75%;
+            margin:auto;
             height:35px;
             background-color: #19bc9c;
             display: flex;
+            margin-top: 4em;
         }
         .righttic{
             color: green;
@@ -41,10 +48,10 @@
            cursor: pointer;
        }
        .here_p{
-           width:95%;
-           margin-left: 2.5%;
+            width:75%;
+            margin:auto;
            display: flex;
-           height: 120px;
+           height: fit-content;
            box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
        }
        .here_p>img{
@@ -54,7 +61,7 @@
            margin-top:3.2%;
        }
        .nrsp{
-           font-size: 7.5px;
+           font-size: 15px;
            font-family: sans-serif;
            width:28%;
            margin-top: 2.2%;
@@ -75,9 +82,9 @@
          margin-left: -3%;
       }
       .myorder{
-       font-size:7.3px;
+       font-size: 14px;
        font-family: sans-serif;
-       width:17%;
+       width:27%;
        margin-left: -1%;
        margin-top:2.9%;
       }
@@ -92,11 +99,11 @@
           border-radius: 5px;
           text-align: center;
           margin-left: 0.3em;
-          font-size: 7px;
+          font-size: 12px;
           color: rgb(44, 192, 44);
       }
       .myorder3{
-          font-size: 12px;
+          font-size: 15px;
           margin-top: 0.2em;
           color:rgb(168, 161, 161);
           font-weight: normal;
@@ -109,7 +116,7 @@
       }
       .ptoc{
           height:27px;
-          font-size: 8px;
+          font-size: 15px;
           background-color: #e40046;
           border: none;
           color:white;
@@ -121,7 +128,7 @@
       }
       .ptoc1{
         height:27px;
-          font-size: 8px;
+          font-size: 15px;
           background-color: BLACK;
           border: none;
           color:white;
@@ -134,6 +141,9 @@
     </style>
 </head>
 <body>
+    <div id="header1">
+        <!-- place header here -->
+    </div>
     <div class="showname">
      <div class="round"><span class="righttic">  &#x2714</span></div> 
      <div class="nn"></div>
@@ -155,8 +165,28 @@
         <button class="ptoc">PROCEED TO CHECKOUT</button>
         <button class="ptoc1" onclick="viewoncart()">VIEW ON CART</button>
     </div>
+    <div id="expftr">
+    </div>
 </body>
 </html>
+
+<script type="module">
+
+    import navbar from "/components/navBar.js"
+    
+    let head = document.querySelector("#header1");
+    head.innerHTML = navbar();
+    
+    import footerFin from "/components/footerNav.js";
+    
+    let foot = document.querySelector("#expftr");
+        foot.innerHTML = footerFin();
+    
+        let cart = document.querySelector("#cartDiv");
+    cart.addEventListener("click", () => {
+        window.location.href = "cart2.html";
+    });
+    </script>
 <script>
 
 var oneitem=JSON.parse(localStorage.getItem("oneitem"));
