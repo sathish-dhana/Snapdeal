@@ -315,7 +315,7 @@ return b.discount - a.discount;
   }
 
 
-  document.getElementById("div_product").addEventListener("click",function(){
-    localStorage.setItem("Bagitems",JSON.stringify(ethnic))
-    window.location.href= 'cart2.html'
+  document.getElementById("product").addEventListener("click",function(){
+    localStorage.setItem("oneitem", JSON.stringify(ethnic))
+    window.location.href= 'product1.html'
   });

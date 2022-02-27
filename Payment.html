@@ -1,0 +1,64 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Payment.css">
+    <title>Review</title>
+</head>
+<body>
+    <div id="navbar">
+        <img id="logo" src="https://i3.sdlcdn.com/img/snapdeal/darwin/logo/sdLatestLogo.svg" alt="">
+        <p>100% Payment Protection, Easy Returns Policy</p>
+    </div>
+    <div id="main">
+        <div id="Adress">
+            <div id="adrs">
+                <h1>Delivery Address</h1>
+                <p id="p1"></p>
+                <p id="p2"></p>
+                <p id="p3"></p>
+                <p id="p4"></p>
+                <p id="p5"></p>
+            </div>
+            <div id="heading">Payment</div>
+            <div id="PaymentBox">
+                <div id="option">
+                    <button onclick="debit()" id="debit">Debit Card</button>
+                    <button onclick="credit()" id="credit">Credit Card</button>
+                </div>
+                <div id="cardDetails">
+                    <h3 id="h">Pay using Debit Card</h3>
+                    <table>
+                        <tr>
+                            <td>Card No</td>
+                            <td>
+                                <input type="tel" placeholder="enter card no">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>Expiry date</td>
+                            <td>
+                                <input type="date">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>CVV</td>
+                            <td>
+                                <input type="number" placeholder="CVV">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <button onclick="Done()" id="btn">PROCEED TO PAYMENT</button>
+                            </td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+        </div>
+        <div id="details"></div>
+    </div>
+</body>
+</html>
+<script src="payment.js"></script>

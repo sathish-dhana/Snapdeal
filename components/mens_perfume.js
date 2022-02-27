@@ -282,7 +282,7 @@ display_data(deodrant);
 
 
 
-document.getElementById("div_product").addEventListener("click",function(){
-  localStorage.setItem("Bagitems",JSON.stringify(deodrant));
-  window.location.href='cart.html'
+document.getElementById("product").addEventListener("click",function(){
+  localStorage.setItem("oneitem",JSON.stringify(deodrant));
+  window.location.href= 'product1.html';
 });

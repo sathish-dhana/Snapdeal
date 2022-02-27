@@ -580,6 +580,6 @@ var dis = document.getElementById("discount_bar_foot_sub");
 
 
 
-    document.getElementById("div_product").addEventListener("click",function(){
-        window.location.href='cart.html'
+    document.getElementById("product").addEventListener("click",function(){
+        window.location.href='product1.html'
       });

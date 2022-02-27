@@ -365,9 +365,9 @@ return b.discount - a.discount;
 
 
 
-  document.getElementById("div_product").addEventListener("click",function(){
-    localStorage.setItem("Bagitems",JSON.stringify(womensdata))
-    window.location.href='cart.html'
+  document.getElementById("product").addEventListener("click",function(){
+    localStorage.setItem("oneitem",JSON.stringify(womensdata))
+    window.location.href='product1.html'
   });
 
 

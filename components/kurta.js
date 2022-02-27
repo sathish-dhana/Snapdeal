@@ -310,7 +310,7 @@ display_data(womenkurta);
 
 
 
-document.getElementById("div_product").addEventListener("click",function(){
-    localStorage.setItem("Bagitems",JSON.stringify(womenkurta))
-    window.location.href='cart.html'
+document.getElementById("product").addEventListener("click",function(){
+    localStorage.setItem("oneitem",JSON.stringify(womenkurta))
+    window.location.href='product1.html'
   });

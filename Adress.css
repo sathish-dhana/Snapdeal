@@ -1,0 +1,106 @@
+#navbar{
+    width: 100%;
+    height: 50px;
+    display: flex;
+    margin-top: 0%;
+    background-color: rgb(228,0,70);
+}
+#logo{
+    height: 25%;
+    margin-top: 10px;
+    margin-left: 60px;
+}
+#navbar > p{
+    font-size: 8px;
+    margin-top: 10px;
+    margin-left: 400px;
+    color: white;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+#main{
+    display: flex;
+    /* border: 1px solid black; */
+    margin: auto;
+    margin-top: -12px;
+    width: 80%;
+    height: 350px;
+    border-radius: 5px;
+    background-color: white;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+#adress{
+    height: 100%;
+    width: 70%;
+    /* border: 0.5px solid black; */
+    margin-left: 0ch;
+    border-radius: 5px;
+    background-color: white;
+}
+#details{
+    padding-left: 1ch;
+    height: 100%;
+    width: 30%;
+    border: 0.5px solid black;
+    margin-left: 0ch;
+    border-radius: 5px;
+    background-color: white;
+    color: rgb(102,102,102);
+}
+#heading{
+    width: 90%;
+    height: 7%;
+    background-color: rgb(51,51,51);
+    margin: auto;
+    margin-top: 20px;
+    border-radius: 3px;
+    color: white;
+    font-size: 12px;
+    padding-top: 10px;
+    padding-left: 15px;
+}
+#body{
+    width: 90%;
+    height: 83%;
+    border: 0.2px solid black;
+    margin: auto;
+    margin-top: 3px;
+    border-radius: 3px;
+}
+table{
+    position: relative;
+    top: -9em;
+    border-collapse:separate; 
+    border-spacing: 0 10px;
+}
+td {
+    padding: 0 25px;
+}
+td>p{
+    color: rgb(102,102,102);
+    margin-top: 1px;
+    font-size: 8px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+td>input{
+    color: rgb(102,102,102);
+    font-size: 8px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    width: 150px;
+    height: 20px;
+    border: 0.2px solid black;
+    border-radius: 2px;
+}
+input:focus{
+    /* background-color: black; */
+    border-color: red;
+}
+button{
+    width: 130px;
+    height: 25px;
+    margin-top: 10px;
+    background-color: rgb(228,0,70);
+    border: none;
+    font-size: 8px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: white;
+}

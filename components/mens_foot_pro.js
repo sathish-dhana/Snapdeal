@@ -294,6 +294,8 @@
  star.style.marginTop = "-5%";
  
  div_pro.append(image,title,strike,price,discount_1,star);
+
+
  container_1.append(div_pro);
     });
    }
@@ -327,15 +329,15 @@
    }
  
   
-  
-  
-  
-  
-  
-  
-   document.getElementById("div_product").addEventListener("click",function(){
-    localStorage.setItem("Bagitems",JSON.stringify(mensdata));
-    window.location.href='cart.html'
+   document.getElementById("product").addEventListener("click",function(){
+    localStorage.setItem("oneitem",JSON.stringify(mensdata));
+    window.location.href='product1.html'
   });
+  
+  
+  
+  
+  
+   
   
   

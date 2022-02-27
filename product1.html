@@ -4,14 +4,19 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="styles/navbar.css">
+    <link rel="stylesheet" href="styles/home.css">
+    <script src="https://kit.fontawesome.com/c31f20646c.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="styles/main.css">
+    <link rel="icon" href="https://2.bp.blogspot.com/-Wg8FSK_ntCw/WIC35p13I4I/AAAAAAAAYkE/NigX0ARP108IvSehpOXk-ghVqCsKGVMnACLcB/s1600/snapdeal.jpg" type="image/icon type" style="border-radius: 30%;">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <title>Document</title>
     <style>
         .container{
             width:92%;
             margin-left: 4%;
-          
-
         }
         .head{
             font-size: 20px;
@@ -159,7 +164,9 @@
     </style>
 </head>
 <body>
-   
+    <div id="header1">
+        <!-- place header here -->
+    </div>
     <div class="container">
     <div class="head"></div>
     <div class="main">
@@ -196,16 +203,32 @@
         <button class="main19">Add To Cart</button>
     </div>
     </div>
-   
+    <div id="expftr">
+    </div>
 </body>
 </html>
+<script type="module">
+
+    import navbar from "/components/navBar.js"
+    
+    let head = document.querySelector("#header1");
+    head.innerHTML = navbar();
+    
+    import footerFin from "/components/footerNav.js";
+    
+    let foot = document.querySelector("#expftr");
+        foot.innerHTML = footerFin();
+    
+        let cart = document.querySelector("#cartDiv");
+    cart.addEventListener("click", () => {
+        window.location.href = "cart2.html";
+    });
+</script>
 <script>
-
-
-    var item= JSON.parse(localStorage.getItem("items")) ||[]
-    var m=JSON.parse(localStorage.getItem("oneitem"));
+   var item= JSON.parse(localStorage.getItem("items")) || [];
+   var m = JSON.parse(localStorage.getItem("oneitem"));
    document.querySelector(".head").innerHTML=m.name;
-   document.querySelector(".main1").src=m.image;
+   document.querySelector(".main1").src=m.image_url;
    document.querySelector(".main2").innerHTML=m.name;
    document.querySelector(".main14").innerHTML=`Rs.${Math.floor((m.price*100)/29)}`
    document.querySelector(".main16").innerHTML=`Rs.${m.price}`
@@ -213,7 +236,7 @@
        event.preventDefault();
         item.push(m)
         localStorage.setItem("items",JSON.stringify(item));
-       window.location.href="cart2.html"
+       window.location.href= "cart2.html";
    })
    
 </script>

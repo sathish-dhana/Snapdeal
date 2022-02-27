@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link rel="stylesheet" href="Adress.css">
+    <title>Delivery Address</title>
+</head>
+<body>
+    <div id="navbar">
+        <img id="logo" src="https://i3.sdlcdn.com/img/snapdeal/darwin/logo/sdLatestLogo.svg" alt="">
+        <p>100% Payment Protection, Easy Returns Policy</p>
+    </div>
+    <div id="main">
+        <div id="adress">
+            <div id="heading">Delivery Address</div>
+            <div id="body">
+            <table id="table">
+                <tr>
+                    <td><p>pincode</p></td>
+                    <td>
+                        <input id="pin" type="text" placeholder="6 digit pincode">
+                    </td>
+                </tr><br>
+                <tr>
+                    <td><p>Name</p></td>
+                    <td>
+                        <input id="name" type="text" placeholder="Full Name">
+                    </td>
+                </tr><br>
+                <tr>
+                    <td><p>Address</p></td>
+                    <td>
+                        <input id="adrs" type="text" placeholder="Flat/House N0. Colony/Street No.">
+                    </td>
+                </tr><br>
+                <tr>
+                    <td><p>Locality/Landmark</p></td>
+                    <td>
+                        <input id="landmark" type="text" placeholder="Eg. Near Appolo Hospital">
+                    </td>
+                </tr><br>
+                <tr>
+                    <td><p>City</p></td>
+                    <td>
+                        <input id="city" type="text" placeholder="City">
+                    </td>
+                </tr><br>
+                <tr>
+                    <td><p>State</p></td>
+                    <td>
+                        <input id="state" type="text" placeholder="State">
+                    </td>
+                </tr><br>
+                <tr>
+                    <td><p>Mobile No.</p></td>
+                    <td>
+                        <input id="mob" type="number" placeholder="10 Digit Mobile Number">
+                    </td>
+                </tr><br>
+                <tr>
+                    <td></td>
+                    <td>
+                        <button onclick="addressFetch()">SAVE & CONTINUE</button>
+                    </td>
+                </tr><br>
+            </table>
+            </div>
+        </div>
+        <div id="details"></div>
+    </div>
+</body>
+</html>
+<script src="Adress.js">
+    
+</script>

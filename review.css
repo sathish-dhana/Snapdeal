@@ -1,0 +1,114 @@
+#navbar{
+    width: 100%;
+    height: 50px;
+    display: flex;
+    margin-top: 0%;
+    background-color: rgb(228,0,70);
+}
+#logo{
+    height: 25%;
+    margin-top: 10px;
+    margin-left: 60px;
+}
+#navbar > p{
+    font-size: 8px;
+    margin-top: 10px;
+    margin-left: 400px;
+    color: white;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+#main{
+    display: flex;
+    /* border: 1px solid black; */
+    margin: auto;
+    margin-top: -12px;
+    width: 80%;
+    height: 350px;
+    border-radius: 5px;
+    background-color: white;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+#adrs{
+    height: 100%;
+    width: 100%;
+    border: 0.5px solid black;
+    margin-left: 0ch;
+    border-radius: 5px;
+    background-color: white;
+    margin-top: 0ch;
+}
+#details{
+    padding-left: 1ch;
+    background-color: black;
+    height: 100%;
+    width: 30%;
+    border: 0.5px solid black;
+    margin-left: 3ch;
+    border-radius: 5px;
+    background-color: white;
+    color: rgb(102,102,102);
+}
+#adrs > h1{
+    width: 100%;
+    color: black;
+    height: 18px;
+    margin-top: 1ch;
+    margin-left: 1ch;
+    margin-bottom: 1ch;
+    font-size: 15px;
+}
+#adrs > p{
+    margin-top: 1px;
+    margin-bottom: 1px;
+    color: rgb(102,102,102);
+    font-size: 8px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-left: 2ch;
+}
+#Cart{
+    padding-left: 2ch;
+    /* height: 180px; */
+    width: 100%;
+    margin: 0.5ch 0ch 0ch 0ch;
+    border: 0.5px solid black;
+    border-radius: 3px;
+}
+#Adress{
+    height: 30%;
+    width: 65%;
+    border: 0.5px solid black;
+    margin-left: 1ch;
+    border-radius: 5px;
+    background-color: white;
+    margin-top: 1ch;
+}
+#heading{
+    width: 100%;
+    height: 20%;
+    background-color: rgb(51,51,51);
+    margin: auto;
+    margin-top: 5px;
+    border-radius: 3px;
+    color: white;
+    font-size: 12px;
+    padding-top: 10px;
+    padding-left: 15px;
+}
+#Cart > img{
+    height: 60px;
+}
+#Cart > p{
+    color: rgb(102,102,102);
+    font-size: 8px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+#btn{
+    width: 130px;
+    height: 25px;
+    margin-top: 10px;
+    background-color: rgb(228,0,70);
+    border: none;
+    font-size: 8px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: white;
+}
