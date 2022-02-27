@@ -227,14 +227,14 @@
 <script>
    var item= JSON.parse(localStorage.getItem("items")) || [];
    var m = JSON.parse(localStorage.getItem("oneitem"));
-   document.querySelector(".head").innerHTML=m.name;
-   document.querySelector(".main1").src=m.image_url;
-   document.querySelector(".main2").innerHTML=m.name;
-   document.querySelector(".main14").innerHTML=`Rs.${Math.floor((m.price*100)/29)}`
-   document.querySelector(".main16").innerHTML=`Rs.${m.price}`
+   document.querySelector(".head").innerHTML=m[m.length-1].name;
+   document.querySelector(".main1").src=m[m.length-1].image_url;
+   document.querySelector(".main2").innerHTML=m[m.length-1].name;
+   document.querySelector(".main14").innerHTML=`Rs.${Math.floor((m[m.length-1].price*100)/29)}`
+   document.querySelector(".main16").innerHTML=`Rs.${m[m.length-1].price}`
    document.querySelector(".main19").addEventListener("click",function(event){
-       event.preventDefault();
-        item.push(m)
+        item.push(m[m.length-1])
+        console.log(m[m.length-1]);
         localStorage.setItem("items",JSON.stringify(item));
        window.location.href= "cart2.html";
    })

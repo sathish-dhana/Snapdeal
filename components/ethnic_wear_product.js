@@ -316,6 +316,6 @@ return b.discount - a.discount;
 
 
   document.getElementById("product").addEventListener("click",function(){
-    localStorage.setItem("oneitem", JSON.stringify(ethnic))
+    localStorage.setItem("oneitem",JSON.stringify(ethnic))
     window.location.href= 'product1.html'
   });
