@@ -43,7 +43,7 @@
         }
        .cancel{
            color: white;
-           margin-left: 29%;
+           margin-left: 92%;
            margin-top:0.8%;
            cursor: pointer;
        }
@@ -116,7 +116,7 @@
       }
       .ptoc{
           height:27px;
-          font-size: 15px;
+          font-size: 12px;
           background-color: #e40046;
           border: none;
           color:white;
@@ -128,7 +128,7 @@
       }
       .ptoc1{
         height:27px;
-          font-size: 15px;
+          font-size: 12px;
           background-color: BLACK;
           border: none;
           color:white;
@@ -147,7 +147,7 @@
     <div class="showname">
      <div class="round"><span class="righttic">  &#x2714</span></div> 
      <div class="nn"></div>
-    <span class="cancel">&#10006</span>
+    <span class="cancel" onclick="maincome()">&#10006</span>
     </div>
     <div class="here_p">
         <img src="" alt="" class="here_img">
@@ -202,6 +202,9 @@ document.querySelector(".nrsp_2").innerHTML=`${"Rs. "}`+oneitem.price;
 document.querySelector(".myorder4").innerHTML=`${"Rs. "}`+oneitem.price;
 function viewoncart(){
     window.location.href="cart3.html"
+}
+function maincome(){
+    window.location.href="Home.html"
 }
 
 </script>
