@@ -1,0 +1,162 @@
+#side_bar{
+    width: 325px;
+    height: 1600px;
+    padding: 20px;
+    
+    margin-left: 0%;
+    background-color: #F7F7F7;
+}
+#side_bar_foot{
+    width: 325px;
+    height: 150px;
+    padding: 20px;
+    background-color: rgb(255, 255, 255);
+}
+#focus_foot:hover{
+    
+    cursor: pointer;
+}
+#side_bar_foot_sub{
+    width: 300px;
+    height: 50px;
+    padding: 20px;
+    margin-top: 5%;
+    background-color: rgb(255, 255, 255);
+}
+#mens{
+    width: 200px;
+    height: 5px;
+    padding: 4px;
+    background-color: rgb(255, 255, 255);
+    margin-top: -5%;
+    
+}
+#womens{
+    width: 200px;
+    height: 5px;
+    padding: 4px;
+    background-color: rgb(255, 255, 255);
+}
+#kids{
+    width: 200px;
+    height: 5px;
+    padding: 4px;
+    background-color: rgb(255, 255, 255);
+}
+#rating{
+    width: 365px;
+    height: 200px;
+    padding: auto;
+    background-color: rgb(255, 255, 255);
+}
+#rating_bar_foot{
+    width: 325px;
+    height: 15px;
+    padding: 20px;
+    background-color: rgb(255, 255, 255);
+}
+#rating_bar_foot_sub{
+    width: 300px;
+    height: 75px;
+    padding: 20px;
+    margin-top: 0%;
+    background-color: rgb(255, 255, 255);
+}
+#six{
+    width: 220px;
+    height: 10px;
+    margin-top: -5%;
+    background-color: rgb(255, 255, 255);
+}
+#five{
+    width: 220px;
+    height: 10px;
+    margin-top: -5%;
+    background-color: rgb(255, 255, 255);
+}
+#four{
+    width: 220px;
+    height: 10px;
+    margin-top: -5%;
+    background-color: rgb(255, 255, 255);
+}
+#three{
+    width: 220px;
+    height: 10px;
+    margin-top: 2%;
+    background-color: rgb(255, 255, 255);
+}
+#two{
+    width: 220px;
+    height: 10px;
+    margin-top: 2%;
+    background-color: rgb(255, 255, 255);
+}
+#one{
+    width: 220px;
+    height: 10px;
+    margin-top: 2%;
+    background-color: rgb(255, 255, 255);
+}
+#brand{
+    width: 365px;
+    height: 400px;
+    padding: auto;
+    background-color: rgb(255, 255, 255);
+}
+#brand_bar_foot{
+    width: 325px;
+    height: 15px;
+    padding: 20px;
+    background-color: rgb(255, 255, 255);
+}
+#brand_bar_foot_sub{
+    width: 300px;
+    height: 75px;
+    padding: 20px;
+    margin-top: -10%;
+    background-color: rgb(255, 255, 255);
+}
+#discount{
+    width: 365px;
+    height: 400px;
+    padding: auto;
+    background-color: rgb(255, 255, 255);
+}
+#discount_bar_foot{
+    width: 325px;
+    height: 15px;
+    padding: 20px;
+    background-color: rgb(255, 255, 255);
+}
+#discount_bar_foot_sub{
+    width: 300px;
+    height: 75px;
+    padding: 20px;
+    margin-top: -10%;
+    background-color: rgb(255, 255, 255);
+}
+#age{
+    width: 365px;
+    height: 400px;
+    padding: auto;
+    background-color: rgb(255, 255, 255);
+}
+#age_bar_foot{
+    width: 325px;
+    height: 15px;
+    padding: 20px;
+    background-color: rgb(255, 255, 255);
+}
+#age_bar_foot_sub{
+    width: 300px;
+    height: 75px;
+    padding: 20px;
+    margin-top: -10%;
+    background-color: rgb(255, 255, 255);
+}
+
+
+
+
+

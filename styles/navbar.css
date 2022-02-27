@@ -15,7 +15,7 @@ body{
     /* border: 1px solid black; */
     flex: 0.7;
 }
-#logo>img{
+#logo img{
     width: 60%;
     height: 3.8em;
     margin-left: 20%;
@@ -69,6 +69,9 @@ body{
     background-color: rgb(70, 70, 70);
     transition-duration: 0.5s;
     
+}
+a, a:hover{
+    text-decoration: none;
 }
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
 #rightNav{
