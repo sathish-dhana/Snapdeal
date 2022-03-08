@@ -1,4 +1,4 @@
-# [Snapdeal | Original](https://www.snapdeal.com/)
+# [Snapdeal | Clone](https://www.snapdeal.com/)
 <table>
 <tr>
 <td>
