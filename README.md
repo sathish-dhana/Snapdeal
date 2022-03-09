@@ -25,7 +25,7 @@ Want to run in your local Machine? Great!
 
 To run, follow these steps:
 
-- Clone my repository `-`
-- Open that code in your VS code `-`
-- Open the `-` on Live server
+- Clone my repository `https://github.com/sathish-dhana/Snapdeal.git`
+- Open that code in your VS code `pages/Home.html`
+- Open the `Home.html` on Live server
 - Then you can Navigate through other pages from Sign_In page etc.
