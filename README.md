@@ -29,3 +29,38 @@ To run, follow these steps:
 - Open that code in your VS code `pages/Home.html`
 - Open the `Home.html` on Live server
 - Then you can Navigate through other pages from Sign_In page etc.
+
+## Bath & BodyWorks Clone
+
+### Sign-In
+
+![](https://github.com/sathish-dhana/Bath-Bodyworks/blob/465f9958423fce37e94c854aaefdfd802963ba94/pictures/shot1.png)
+
+### Sign-Up
+
+![](https://github.com/sathish-dhana/Bath-Bodyworks/blob/465f9958423fce37e94c854aaefdfd802963ba94/pictures/shot-2.png)
+
+### Home Page
+
+![](https://github.com/sathish-dhana/Bath-Bodyworks/blob/465f9958423fce37e94c854aaefdfd802963ba94/pictures/shot3.png)
+
+### Product Page
+
+![](https://github.com/sathish-dhana/Bath-Bodyworks/blob/465f9958423fce37e94c854aaefdfd802963ba94/pictures/shot-4.png)
+
+### Cart Page
+
+![](https://github.com/sathish-dhana/Bath-Bodyworks/blob/8444b2f2e0918dd40f66ecad75e8806cc587fb90/pictures/Cart-Page.png)
+
+
+### Cart Page
+
+![](https://github.com/sathish-dhana/Bath-Bodyworks/blob/465f9958423fce37e94c854aaefdfd802963ba94/pictures/shot-6.png)
+
+### Payment Page
+
+![](https://github.com/sathish-dhana/Bath-Bodyworks/blob/0c1049848f49e2d33d752d7a80f63e0158532573/pictures/Payment.png)
+
+### Review Page
+
+![](https://github.com/sathish-dhana/Bath-Bodyworks/blob/465f9958423fce37e94c854aaefdfd802963ba94/pictures/shot-7.png)
