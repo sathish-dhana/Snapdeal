@@ -34,15 +34,15 @@ To run, follow these steps:
 
 ### Sign-In
 
-![](https://github.com/sathish-dhana/Snapdeal/blob/master/pictures/shot-7.png)
+![](https://github.com/sathish-dhana/Snapdeal/blob/master/pictures/Home1.png)
 
 ### Sign-Up
 
-![](https://github.com/sathish-dhana/Bath-Bodyworks/blob/465f9958423fce37e94c854aaefdfd802963ba94/pictures/shot-2.png)
+![](https://github.com/sathish-dhana/Snapdeal/blob/master/pictures/Home2.png)
 
 ### Home Page
 
-![](https://github.com/sathish-dhana/Bath-Bodyworks/blob/465f9958423fce37e94c854aaefdfd802963ba94/pictures/shot3.png)
+![](https://github.com/sathish-dhana/Snapdeal/blob/master/pictures/shot-7.png)
 
 ### Product Page
 
@@ -50,16 +50,11 @@ To run, follow these steps:
 
 ### Cart Page
 
-![](https://github.com/sathish-dhana/Bath-Bodyworks/blob/8444b2f2e0918dd40f66ecad75e8806cc587fb90/pictures/Cart-Page.png)
-
-
-### Cart Page
-
-![](https://github.com/sathish-dhana/Bath-Bodyworks/blob/465f9958423fce37e94c854aaefdfd802963ba94/pictures/shot-6.png)
+![](https://github.com/sathish-dhana/Snapdeal/blob/master/pictures/Document.png)
 
 ### Payment Page
 
-![](https://github.com/sathish-dhana/Bath-Bodyworks/blob/0c1049848f49e2d33d752d7a80f63e0158532573/pictures/Payment.png)
+![](https://github.com/sathish-dhana/Snapdeal/blob/master/pictures/Delivery-Address.png)
 
 ### Review Page
 
