@@ -46,7 +46,7 @@ To run, follow these steps:
 
 ### Product Page
 
-![](https://github.com/sathish-dhana/Bath-Bodyworks/blob/465f9958423fce37e94c854aaefdfd802963ba94/pictures/shot-4.png)
+![](https://github.com/sathish-dhana/Snapdeal/blob/master/pictures/Footware-Online-Shop-for-Men-Women-Kids-Footware-at-Low-Prices-Snapdeal.png)
 
 ### Cart Page
 
