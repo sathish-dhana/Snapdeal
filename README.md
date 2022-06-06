@@ -30,6 +30,12 @@ To run, follow these steps:
 - Open the `Home.html` on Live server
 - Then you can Navigate through other pages from Sign_In page etc.
 
+
+
+
+## [Live Site]
+<a href="https://optimistic-nightingale-10fc21.netlify.app/">Live Site</a>
+
 ## Bath & BodyWorks Clone
 
 ### Sign-In
